@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+  <style>
+  
+    div.vertical-line{
+      width: 1px; /* Line width */
+      background-color: #E5E2E2; /* Line color */
+      height: 100%; /* Override in-line if you want specific height. */
+      float: left; 
+    }
+  
+  
+  a {
+  color: white;
+  }
+.main-box{
+    position:relative;
+    display:block;
+}
+.row {
+border-bottom: 1px solid #ccc;
+}
+
+.main-box > img{
+   
+    height:auto;
+    display:block;
+}
+.main-box > .subtitle {
+    position:absolute;
+    bottom:0;
+    right:0;
+    left:0;
+    padding:12px;
+    background-color:rgba(0,0,0,0.4	);
+    transition:300ms;
+}
+	.main-box > .subtitle > span{
+    color:white;
+    font-weight:bolder;
+}
+.main-box:hover > .subtitle{
+    background-color:rgba(0,0,0,0.7);
+}
+.thumbnail {
+    position: absolute;
+	margin-left=10px;
+	margin-bottom: 20px;
+}
+
+
+.color {
+	background-color: black;
+	color: white;
+}
+
+.caption {
+    position: relative;
+    top: 45%;
+	padding-top: 490px;
+    padding-left: 70px;
+    width: 100%;
+}
+  
+.media my-4 > .d-flex mr-3 > .media-body >li > a:hover {
+color: rgba(0,0,0, 0.3);
+}
+
+.site-footer {
+	background-color: #222;
+}
+
+  </style>
+  
+  		<!--Font Awesome-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <title>Fitline</title>
+  <script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="horizontal-scroll.js"></script>
+  </head>
+  <body>
+  
+  
+
+	
+  
+						<!--NAVBAR-->
+<nav class="navbar  navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">SPACE FOR LOGO</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li style="align: right; float-right;" class="nav-item" class="float-right">
+					<a style="align: right; " class="nav-link" class="float-right" href="#">Nutrition</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Training
+					</a>
+					<div class="dropdown-menu" area-labelledby="navbarDropdownMenuLink">
+						<p class="dropdown-header">Male</p>
+						<a class="dropdown-item" href="Registration_page.html">Muscle Building</a>
+						<a class="dropdown-item" href="Registration_page.html">Fat Loss</a>
+					
+						<p class="dropdown-header">Female</p>
+						<a class="dropdown-item" href="Registration_page.html">Muscle Building</a>
+						<a class="dropdown-item" href="Registration_page.html">Fat Loss</a>
+				
+					</div>
+				</li>
+			</ul>
+		</div>
+</nav>
+
+
+
+	<center>					<!-- Carousel -->
+<div id="carouselExampleIndicators" class="carousel slide" style="max-height:920px; max-width:1280px; margin-left:38px; align: center;" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+						<!--item 1-->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img  class="d-block w-100" src="https://i.pinimg.com/originals/6c/ec/a4/6ceca4457fbe8214ecda674b2d1e03d0.jpg" height="480" width="100" alt="First slide">
+    <!--Caption-->
+		<div class="carousel-caption d-none d-md-block">
+			<h3>Training</h3>
+			<p>Achieve A Great Physique</p>
+		</div>
+	</div>
+  
+						<!--item 2-->
+    <div class="carousel-item">
+      <img  class="d-block w-100" src="https://www.tafecourses.com.au/wp-content/uploads/Nutrition.jpg" height="480" width="100" alt="Second slide">
+		<div class="carousel-caption d-none d-md-block">
+		<h3>Nutritional Information</h3>
+		<p>All about the Nutrition</p>
+		</div>
+    </div>
+	
+						<!--item 3-->
+    <div class="carousel-item">
+      <img class="d-block w-100" src="http://www.anh-usa.org/wp-content/uploads/2016/02/leaf-supplements-web.jpg" height="480" width="100" alt="Third slide">
+		<div class="carousel-caption d-none d-md-block">
+		<h3>SUPPLEMENTS</h3>
+		<p>Everything about supplements</p>
+		</div>
+	 </div>
+  </div>
+	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+	</a>
+</div>
+</center>
+
+
+		
+
+<div class="container" style="padding-top: 20px;">
+<a type="button" class="btn btn-outline-secondary pull-right" style="padding-top: 10px" href="Indian_Athletes.html" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> Meet The Athletes</a>
+</div>
+					<!--Grid Media-->
+<div style="padding-top: 20px;" class="container">
+<div class="row">
+<div class="col-sm-8">
+	<ul class="list-unstyled">
+		<li class="media">
+		<img  class="img-fluid" class="d-flex mr-3" src="https://statics.sportskeeda.com/wp-content/uploads/2016/10/mukesh-singh-gehlot-1476358235-800.jpg" height="220" width="200">
+			<div class="media-body">
+				<h7 style="color: red; padding-left: 20px;"><b>TRENDING</b></h7>
+				<h3 class="mt-0 mb-1" style="padding-left: 20px;">The Man Who Made History</h3>
+				<p style="color: grey;padding-left: 20px;">India has recieved its first gold medal in Joe Wielder's Mr. Olympia 2017.</p>
+				<a class="btn btn-light float-right" href="https://en.wikipedia.org/wiki/Mukesh_Singh_Gehlot" target="_blank">Read More</a>
+		</div>
+	  
+		</li>
+		<hr>
+		<li class="media my-4">
+		<img  class="img-fluid" class="d-flex mr-3" src="https://www.consciouslifestylemag.com/wp-content/uploads/2015/07/Shilajit-Resin.jpg" height="100" width="200">
+			<div class="media-body">
+				<h7 style="color: red ; padding-left: 20px;" ><b>SUPPLEMENTS</b></h7>
+				<h3 class="mt-0 mb-1" style="color: black; padding-left: 20px;">AYURVEDA</h3>
+				<p style="color: grey; padding-left: 20px;">3 Ayurvedic Herbs That Are Better Than Stupid Pharmaceutical Testosterone Boosters.</p>
+				<a class="btn btn-light float-right" href="http://www.mensxp.com/health/fitness/35622-3-ayurvedic-products-that-are-better-than-stupid-pharmaceutical-testosterone-boosters.html" target="_blank">Read More</a>
+			</div>
+		</li>
+		<hr>
+		<li class="media my-4">
+		<img class="img-fluid" class="d-flex mr-3" src="https://familydoctor.org/wp-content/uploads/2010/05/shutterstock_430566880.jpg" height="100" width="200"/>
+			<div class="media-body">
+			<h7 style="color: red ; padding-left: 20px;" ><b>NUTRITION</b></h7>
+				<h3 class="mt-0 mb-1" style="color: black; padding-left: 20px;"><a link href="..." target="_blank" style="color: black;">VITAMINS</a></h3>
+				<p style="color: grey; padding-left: 20px;">Vitamins Are Also Necessary For BodyBuilding. Click On The Link To Know Which Ones.</p>
+				<a class="btn btn-light float-right" href="https://en.wikipedia.org/wiki/Mukesh_Singh_Gehlot" target="_blank">Read More</a>
+			</div>
+		</li>
+	</ul>
+</div>
+<div class="col-sm-4">
+<h4>Suggested</h4>
+
+</div>
+</div>
+</div>
+
+					<!--Articles-->
+<div class="container">
+	<div class="row">
+					<!--col-1-->
+		<div class="col-sm-8">
+			<div class="main-box">	
+				<img class="img-fluid" src="http://flexoffense.com/wp-content/uploads/2016/05/Sergi-Constance.jpg" height="480" width="730" style="padding-top: 40px;"/>
+				<div class="subtitle">
+					<span>
+					<h1><a style="color: #fff;" href="Sergi_Routine.html" target="_blank">Get Body Of A Male Fitness Model With Sergi Constance Routine.</a>
+					</span>
+				</div>
+			</div>
+			<div class="main-box" >
+				<img class="img-fluid" src="https://www.theironden.com/wp-content/uploads/2016/01/anabolics-brazil.png" height="480" width="745"  style="padding-top: 70px;" >
+				<div class="subtitle">
+					<span style=" margin-bottom:0px;" >
+					<h1><a style="color: #fff;" href="#" target="_blank">What Are Anabolics? And Why Its Trending?</a></h1>
+					</span>
+				</div>
+			</div>
+			<div class="main-box">
+				<img class="img-fluid" src="https://blog.thisisbeast.com/wp-content/uploads/2016/12/gym-newbie-758x504.jpg" style="margin-top: 70px;" height="480" width="745" >
+				<div class="subtitle">
+					<span>
+					<h6 style="margin-bottom: 0px; color: #f44336;"><b>NEWS</b></h6>
+					<h1 ><a style="color: #fff;" href="...." target="_blank">NEWBIE AT THE GYM?</a>
+					</span>
+				</div>
+			</div>	
+		</div>	
+		
+					<!--col-2-->
+		<div class="col-sm-4">
+			<h4 style="padding-top: 50px;">New</h4>
+			<div class="media">
+				<img class="mr-3" src="http://cdn-flex1.heartyhosting.com/sites/flexonline.com/files/styles/node_image/public/frank-zane-ab-training.jpg?itok=T1jNM7g3" height="120" width="150">
+					<div class="media-body">
+						<b><a href="##" target="_blank" style="color: black;">Get Perfect Abs With Frank Zane Training Routine.</a></b>
+					</p></div>
+			</div>	
+		
+		
+			<div class="media">
+				<img class="mr-3" style="padding-top: 10px;" src="http://ste.india.com/sites/default/files/2016/05/19/490203-john-abraham.jpg" height="120" width="150">
+					<div  style="padding-top: 10px;" class="media-body">
+						<b><a href="http://www.mensxp.com/health/celebrity-fitness/40277-5-alpha-male-celebrities-who-are-genuinely-fit-and-don-rsquo-t-just-get-in-shape-for-the-camera.html" target="_blank" style="color: black;">5 Alpha Male Celebrities Who Are Genuinely Fit And Dont Just Get In Shape For The Camera.</a></b>
+					</div>
+			</div>	
+		
+			<div class="media">
+				<img class="mr-3" style="padding-top: 10px;" src="http://blog.oxforddictionaries.com/wp-content/uploads/potato.jpg" height="120" width="150">
+					<div style="padding-top: 10px;" class="media-body">
+						<b><a href="##" target="_blank" style="color: black;">Does Eating Potato Make You Fat?</a></b>
+					</div>
+			</div>	
+			<div class="media">
+				<img class="mr-3" style="padding-top: 10px;" src="http://www.atyourpalate.com/blog/wp-content/uploads/2008/12/Beef-steak-988x675.jpg" height="120" width="150">
+					<div style="padding-top: 10px;" class="media-body" >
+						<b><a href="http://www.muscleandfitness.com/nutrition/gain-mass/muscle-food-10-nutrition-rules-build-muscle" target="_blank" style="color: black;">10 Nutrition Rules To Build Muscle</a></b>
+					</div>
+			</div>
+			<div class="media">
+				<img class="mr-3" style="padding-top: 10px;" src="http://i.ebayimg.com/00/s/NTY2WDg0OA==/z/YooAAOSwRLZULV6m/$_32.JPG?set_id=880000500F" height="120" width="150">
+					<div style="padding-top: 10px;" class="media-body" >
+						<b><a href="http://www.muscleandfitness.com/nutrition/meal-plans/4-rules-making-muscle-building-protein-shake" target="_blank" style="color: black;">4-Rules For Making A Muscle Building Protein Shake</a></b>
+					</div>
+			</div>
+			<div class="media">
+				<img class="mr-3" style="padding-top: 10px;" src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/12_powerhouse_vegetables_slideshow/intro_cream_of_crop.jpg" height="120" width="150">
+					<div style="padding-top: 10px;" class="media-body" >
+						<b><a href="##" target="_blank" style="color: black;">Can You Get Beefy Without Meat?</a></b>
+					</div>
+			</div>
+			<div class="media">
+				<img class="mr-3" style="padding-top: 10px;" src="http://1-life.ca/wp-content/uploads/2015/05/Kelowna-gyms-one-life-fitness-and-nutrition.jpg" height="100" width="150">
+						<b><a href="http://www.muscleandfitness.com/nutrition/meal-plans/4-ways-defeat-nutritional-deficiencies" target="_blank" style="color: black;">Ways To Defeat Nutritional Deficiency</a></b>					<div style="padding-top: 10px;" class="media-body" >
+					</div>
+			</div>
+			<div class="media">
+				<img class="mr-3" style="padding-top: 10px;" src="http://www.agricomimpex.com/admin/uploads/Soyabean.jpg" height="120" width="150">
+					<div style="padding-top: 10px;" class="media-body" >
+						<b><a href="##" target="_blank" style="color: black;">Should Boys Be Eating Soya Bean?</a></b>
+					</div>
+			</div>
+			<div class="media">
+				<img class="mr-3" style="padding-top: 10px;" src="http://www.directlyfitness.com/wordpress/wp-content/uploads/2012/12/Ecto-meso-morph-600x447.jpg" height="120" width="150">
+					<div style="padding-top: 10px;" class="media-body" >
+						<b><a href="##" target="_blank" style="color: black;">Train According To Your Body Type.</a></b>
+					</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+					<!--horizontal grid-->
+<div class="container-fluid">
+	<h3 style="margin-top: 30px; font-family: Arial; padding-left: 60px;" >Top Supplements companies</h3>
+	<p><a link href="....." style="padding-left:80px;">View Top Companies</a></p>
+	<div class="row">
+		<div class="col-sm-6">
+			<li class="media my-4"> 
+			<img class="img-fluid" src="http://www.makersnutrition.com/images/page/bodybuilding-supplement-manufacturer.jpg" height="200" width="250" style="align: center;"/>
+			<div class="media-body" >
+				<h5 style="font-family: Arial;">Muscle Building</h5>
+				<p style="margin-bottom:1px; margin-top: 2px; "><a style="color: black;"  href="https://www.optimumnutrition.com/" target="_blank">Optimum Nutrition</a></p>
+				<p style="margin-bottom:1px; margin-top: 2px;"><a style="color: black;" link href="https://musclepharm.com/" target="_blank">MusclePharm</a></p>
+				<p style="margin-bottom:1px; margin-top: 2px;"><a style="color: black;" link href="https://www.sixpacknutrition.in/" target="_blank">Six Pack Nutrition</a></p>
+				<p style="margin-bottom:1px; margin-top: 2px;"><a style="color: black;" link href="https://www.muscletech.com" target="_blank">MuscleTech</a></p>
+				<p style="margin-bottom:1px; margin-top: 2px;"><a style="color: black;" link href="https://www.myprotein.com/" target="_blank">MyProtein</a></p>
+				<p style="margin-bottom:1px; margin-top: 2px;"><a style="color: black;" link href="https://www.muscleblaze.com/" target="_blank"> MuscleBlaze</a></p>
+			</div>
+			</li>
+		</div>
+	                               
+		<div class="col-sm-6">
+			<li class="media my-4"> 
+			<img class="img-fluid"  src="https://dpwd2-watchdogreviews.netdna-ssl.com/wp-content/uploads/2016/12/Inciner8R-Fat-Burner.jpg" height="200" width="200" style="align: center;"/>
+				<div class="media-body" >
+					<h5 style="Font-family: arial;">Lose Fat</h5>
+					<p style="margin-bottom:1px; margin-top: 2px;"><a style="color: black;" link href="......" target="_blank">Fat Burners</a></p>
+					<p style="margin-bottom:1px; margin-top: 2px;"><a style="color: black;" link href="...." target="_blank">Stimulant-Free Fat Burners</a></p>
+					<p style="margin-bottom:1px; margin-top: 2px;"><a style="color: black;" link href="...." target="_blank">Fat Control</a></p>
+					<p style="margin-bottom:1px; margin-top: 2px;"><a style="color: black;" link href="....." target="_blank">Carbohydrate Management</a></p>
+					<p style="margin-bottom:1px; margin-top: 2px;"><a style="color: black;" link href="...." target="_blank">Fat Loss Stack</a></p>
+					<p style="margin-bottom:1px; margin-top: 2px;"><a style="color: black;" link href="....." target="_blank">Thyroid Support</a></p>
+				</div>
+			</li>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-3">
+			<img class="img-fluid" style="padding-top: 10px;" src="http://www.listverse.info/wp-content/uploads/2014/12/8-5-Hour-energy.jpg" height="220" width="220"/>
+			<h5 style="font-family:Arial;">Instant Energy</h5>
+			<p style="margin-bottom:1px; margin-top: 2px;">Herbal Energy Enchancers</p>
+			<p style="margin-bottom:1px; margin-top: 2px;">Energy Shots</p>
+			<p style="margin-bottom:1px; margin-top: 2px;">Energy Drinks</p>
+			<p style="margin-bottom:1px; margin-top: 2px;">Pre-Workout Supplements</p>
+			<p style="margin-bottom:1px; margin-top: 2px;">Non-Stimulant Energy</p>
+			<p style="margin-bottom:1px; margin-top: 2px;">Caffeine/Stimulants</p>
+		</div>
+	
+		<div class="col-sm-3">
+			<img class="img-fluid" style="padding-top: 10px;" src="https://d24kgseos9bn1o.cloudfront.net/treinoecorrida/imagens/paginas/home/_f873b841fc17c27a0af5a3982349eb1b.jpg" height="220" width="220"/>
+			<h5 style="font-family: Arial;">Improve Workout</h5>
+			<h6 style="margin-bottom:1px; margin-top: 2px;">Post Workout Recovery</h6>
+			<p style="margin-bottom:1px; margin-top: 2px;">Pre-Workout Supplements</p>
+			<p style="margin-bottom:1px; margin-top: 2px;">Creatine</p>
+			<p style="margin-bottom:1px; margin-top: 2px;">During Workout</p>
+		</div>
+		
+		<div class="col-sm-3">
+			<img class="img-fluid" style="padding-top: 10px;" src="https://www.optimumnutrition.com/us/img/media/products/opti-men-multivitamin-6404.jpeg" height="220" width="220"/>
+			<h5 style="font-family: Arial;">Men's Health</h5>
+			<p style="margin-bottom:1px; margin-top: 2px;">Male Sex Health</p>
+			<p style="margin-bottom:1px; margin-top: 2px;">DHEA</p>
+			<p style="margin-bottom:1px; margin-top: 2px;">Natural Testosterone Support</p>
+			<p style="margin-bottom:1px; margin-top: 2px;">Anti-Estrogens</p>
+			<p style="margin-bottom:1px; margin-top: 2px;">Prostate Health</p>
+			<p style="margin-bottom:1px; margin-top: 2px;">Men's Multivitamins</p>
+		</div>
+		
+		<div class="col-sm-3">
+			<img class="img-fluid" style="padding-top: 10px;" src="https://i.pinimg.com/736x/1f/33/08/1f3308bdc823318e0acaed47279303c7--vitamins-for-women-multi-vitamin.jpg" height="220" width="220"/>
+			<h5 style="font-family: Arial;">Women's Health</h5>
+			<p style="margin-bottom:1px; margin-top: 2px;">Women's Multivitamins</p>
+			<p style="margin-bottom:1px; margin-top: 2px;">Bath & Body</p>
+			<p style="margin-bottom:1px; margin-top: 2px;">Shaving & Hair Removal</p>
+			<p style="margin-bottom:1px; margin-top: 2px;">Training Products</p>
+			<p style="margin-bottom:1px; margin-top: 2px;">Prenatal Vitamins</p>
+			<p style="margin-bottom:1px; margin-top: 2px;">Women's Hormone Support</p>
+		</div>
+	</div>
+</div>
+	
+				<!--Article-->
+<div class="container">
+	<div class="row">
+		<div class="col-sm-8">
+			<div class="main-box">
+				<img class="img-fluid" src="https://i.pinimg.com/originals/6c/ec/a4/6ceca4457fbe8214ecda674b2d1e03d0.jpg" height="480" width="730" style="padding-top: 40px;"/>
+					<div class="subtitle">
+						<span>
+						<h1 style="color: #f44336;"><a style="color: #fff;" href="#" target="_blank">The Correct Way To Deadlift.</a>
+						</span>
+					</div>
+			</div>
+		</div>
+		
+		<div class="col-sm-4"> 
+			<h1 style="padding-top: 40px; font-family: Arial;">Deadlift</h1>
+			<ul class="list-unstyled">
+				<li class="media">Deadlift, the Master of all exercises, includes all joints that you can barely think of, but a slight wrong posture will do more harm than good. The Deadlift is majorly a Lower Back Exercise but includes hamstrings also.</li>
+				<li class="media"></li>
+				<li class="media"></li>
+			</ul>
+		</div>
+	</div>
+</div>
+	
+				<!--Link for Personal Training-->	
+<div class="container">
+	<a href="http://www.muscleandfitness.com/workouts/workout-routines/professional-edge-train-pro" target="_blank" >
+		<img style="margin-top: 40px;" class="img-fluid" src="http://cdn-maf0.heartyhosting.com/sites/muscleandfitness.com/files/media/MU-ProfessionalEdge-BANNER.jpg"/>
+	</a>
+</div>
+
+					<!--Fluid Jumbotron-->
+<div class="jumbotron jumbotron-fluid" style="margin-top: 70px;">
+	<div class="container">
+		<div class="media">		
+			<div class="row" id="box-search">
+				<div class="container">
+					<div class="row">
+						<div class="main-box">
+							<img class="img-fluid" src="https://www.elitefts.com/wp/wp-content/uploads/2016/10/donnie2.jpg" height="800" width="1000" >
+								<div class="subtitle">
+								<span>
+								<h1 ><a style="color: #fff" href="#" target="_blank">Winter Is Here.<a></h1>
+								</span>
+								</div>
+						</div>
+		
+					</div>
+	
+				</div>
+				<h1 class="display-3" style="margin-left:65px;"><b>Winter Is Bulking!</b></h1>
+				<p class="lead" style="margin-left:65px;">This is Winter time, And for Bodybuilders, Winter means bulking. Are You Having Trouble Adding Size to your Body? Get bulking Tips from The Pros And Get Ready To Transform.</p>
+			</div>
+		</div>	
+		<p style="color=#fff">
+		<a class="btn btn-primary btn-lg btn-block float-right float-bottom" style="color: #fff;" target="_blank">Transform Me!</a></p>
+	</div>
+</div>
+
+
+							<!--Cards-->
+<div class="container">
+	<div class="row">
+		<div class="col-sm-4">
+			<center><a href="#" target="_blank">
+			<img class="img-fluid" src="https://naturellindia.com/Blog/wp-content/uploads/2017/06/MG_0166-web.jpg" height="130" width="300"/>
+			</a></center>
+			<h4 style="padding-top: 5px; ">Testosterone</h4>
+			<p>Testosterone is the primary horomone in males. It helps in muscle building. low test levels cause wewaknes in the bodies.</p>
+		</div>
+		<div class="col-sm-4">
+			<a href="#" target="_blank">
+			<img class="img-fluid" src="http://3.bp.blogspot.com/-wjQjliAEpXY/TaRh4NIAoCI/AAAAAAAABGk/j3PySY70c7c/s1600/DSC07500.JPG" height="200/">
+			</a>
+			<h4 style="padding-top: 5px">Broccoli And Paneer</h4>
+			<p>The Cheapest Alternatives To Meat For Vegan BodyBuilders- Broccoli And Paneer<p>
+		</div>
+		<div class="col-sm-4">
+			<a href="#" target="_blank">
+			<img class="img-fluid" src="http://cdn0.wideopencountry.com/wp-content/uploads/2017/04/beer-793x526.jpg" width="300"/>
+			</a>
+			<h4 style="padding-top: 5px">Is Beer Healthy?</h4>
+			<p>Beer Is Considered Healthy For Adults As It Contains Vital Nutrients For The Human Body, but is it true?</p>
+		</div>
+
+	</div>
+</div>
+
+
+	
+	
+	
+	
+			<!--Footer-->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-3" style="padding-top: 80px;">
+		<font size="3"><b>NEED HELP?</b></font>
+		<ul class="list-unstyled">
+		<li class="media">
+		<font size="-1"style="padding-top: 4px;"><a style="color: grey;" href="#">Email us</a></font>
+		</li>
+		<li class="media">
+		<font size="-1"style="padding-top: 4px;"><a style="color: grey;" href="#">Get Mobile No.</a></font>
+		</li>
+		<li class="media">
+		<font size="-1" style="padding-top: 4px;"><a style="color: grey;" href="#">Looking For<br>Something Else?</a></font>
+		</li>
+		
+		</ul>
+		</div>
+		<div class="col-sm-3" style="padding-top: 80px;">
+		<font size="3"><b>CONNECT WITH US</b></font>
+		<div class="container">
+		<a href="#" style="color: grey;"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+		<a href="#" style="color: grey;"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+		<a href="#" style="color: grey;"><i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i></a>
+		<a href="#" style="color: grey;"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+		<a href="#" style="color: grey;"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+		</div>
+		
+		
+		</div>
+		<div class="col-sm-3" style="padding-top: 80px;">
+		
+		</div>
+		<div class="col-sm-3" style="padding-top: 80px;">
+		
+		</div>
+	</div>
+	<center>
+		<font size="-2" style="color:grey;">Always consult with a qualified healthcare professional prior to beginning any diet or exercise program or <br>taking any dietary supplement. The content on our website is for informational and educational purposes only <br>and is not intended as medical advice or to replace a relationship with a qualified healthcare professional.</font>
+	</center>
+<a class="btn btn-primary btn-light float-right" role="button" href="#top">Top</a>
+	</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  </body>
+</html>
